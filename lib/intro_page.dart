@@ -15,10 +15,10 @@ class IntroPage extends StatelessWidget {
             children: [
               Image.asset(
                 "assets/images/nike.png",
-                height: 60,
+                height: 50,
               ),
               const SizedBox(
-                height: 48,
+                height: 40,
               ),
               const Text(
                 "Just Do It",
@@ -44,7 +44,7 @@ class IntroPage extends StatelessWidget {
                   child: const Center(
                     child: Text(
                       "Shop now",
-                      style: TextStyle(color: Colors.white),
+                      style: TextStyle(color: Colors.white, fontSize: 18),
                     ),
                   ),
                 ),
